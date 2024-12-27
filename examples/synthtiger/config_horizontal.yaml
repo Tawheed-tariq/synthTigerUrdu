@@ -30,7 +30,7 @@ corpus:
       max_length: 25
       textcase: [lower, upper, capitalize]
       augmentation: 0
-      augmentation_charset: resources/charset/urdu.txt
+      augmentation_charset: resources/charset/urdu_52.txt
 
 font:
   paths: [resources/font/]
