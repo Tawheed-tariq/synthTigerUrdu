@@ -16,7 +16,7 @@ corpus:
   weights: [1, 0]
   args:
     # length augmentable corpus
-    - paths: [resources/corpus/kashmiri_corpus.txt, resources/corpus/kashmiri_corpus.txt]
+    - paths: [resources/corpus/ur_main_spc.txt, resources/corpus/ur_main_spc.txt]
       weights: [1, 1]
       min_length: 30
       max_length: 70
