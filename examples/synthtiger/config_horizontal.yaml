@@ -16,7 +16,7 @@ corpus:
   weights: [1, 0]
   args:
     # length augmentable corpus
-    - paths: [resources/corpus/ur_main_spc.txt, resources/corpus/ur_main_spc.txt]
+    - paths: [resources/corpus/kashmiri.txt, resources/corpus/kashmiri.txt]
       weights: [1, 1]
       min_length: 30
       max_length: 70
@@ -30,10 +30,10 @@ corpus:
       max_length: 70
       textcase: [lower, upper, capitalize]
       augmentation: 0
-      augmentation_charset: resources/charset/urdu.txt
+      augmentation_charset: resources/charset/kashmiri.txt
 
 font:
-  paths: [resources/font/]
+  paths: [resources/kr/]
   weights: [2]
   size: [60, 80]
   bold: 1
