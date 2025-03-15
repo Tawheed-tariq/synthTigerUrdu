@@ -33,7 +33,7 @@ corpus:
       augmentation_charset: resources/charset/urdu_52.txt
 
 font:
-  paths: [resources/kr/]
+  paths: [resources/font_urdu/]
   weights: [2]
   size: [60, 80]
   bold: 1
