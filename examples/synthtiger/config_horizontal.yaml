@@ -16,7 +16,7 @@ corpus:
   weights: [1, 0]
   args:
     # length augmentable corpus
-    - paths: [resources/corpus/urdu.txt, resources/corpus/urdu_synthtext.txt]
+    - paths: [resources/corpus/urdu.txt, resources/corpus/urdu.txt]
       weights: [1, 1]
       min_length: 30
       max_length: 70
